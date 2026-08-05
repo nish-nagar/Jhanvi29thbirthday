@@ -6,7 +6,7 @@ const CONFIG = {
 
   // GitHub Pages cannot process forms by itself.
   // Create a free Formspree form and paste its endpoint below.
-  formspreeEndpoint: "https://formspree.io/f/YOUR_FORM_ID"
+  formspreeEndpoint: "https://formspree.io/f/xnpaqgyg"
 };
 
 const $ = (selector) => document.querySelector(selector);
