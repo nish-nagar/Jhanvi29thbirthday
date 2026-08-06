@@ -135,13 +135,19 @@ function configureCalendar() {
 }
 
 function configureAttendanceFields() {
+  const guestCount = $("#guestCount");
+
   document.querySelectorAll('input[name="attendance"]').forEach((radio) => {
     radio.addEventListener("change", () => {
       const attending = radio.checked && radio.value.startsWith("Yes");
+
       $("#attendingFields").hidden = !attending;
 
+      guestCount.required = attending;
+      guestCount.disabled = !attending;
+
       if (!attending) {
-        $("#guestCount").value = "1";
+        guestCount.value = "";
         $("#additionalNames").value = "";
         $("#dietary").value = "";
       }
