@@ -230,8 +230,8 @@
           </div>
 
           <div class="field">
-            <label for="guestEmail">Email <span>*</span></label>
-            <input id="guestEmail" name="email" type="email" autocomplete="email" required />
+            <label for="guestEmail">Email <span>(optional)</span></label>
+            <input id="guestEmail" name="email" type="email" autocomplete="email" />
           </div>
 
           <fieldset class="field attendance-field">
@@ -258,7 +258,7 @@
           <div id="attendingFields" hidden>
             <div class="field">
               <label for="guestCount">Number attending, including you</label>
-              <select id="guestCount" name="guest_count">
+              <select id="guestCount" name="guest_count" required>
                 <option value="1">1 person</option>
                 <option value="2">2 people</option>
                 <option value="3">3 people</option>
