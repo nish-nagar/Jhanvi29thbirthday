@@ -88,7 +88,7 @@ function configureCalendar() {
   const start = toCalendarDate(CONFIG.eventStart);
   const end = toCalendarDate(CONFIG.eventEnd);
   const details =
-    "Surprise celebration for Jhanvi's 29th birthday. Dress code: all black. Please arrive on time and keep it a secret.";
+    "Surprise celebration for Jhanvi's 29th birthday. Dress code: yellow. Please arrive on time and keep it a secret.";
   const location = "Gaia & Loki, 346 Grove Street, Jersey City, NJ 07302";
 
   const params = new URLSearchParams({
