@@ -324,7 +324,7 @@ img { display: block; max-width: 100%; }
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #050505;
+  background: #f4d03f;
   box-shadow: 0 0 0 5px #ece7dc;
 }
 .black-swatch small { color: var(--muted); font-weight: 600; }
